@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(galgotias.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar{
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  margin: 5px;
+  margin-right: 40px;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.content{
+  width: 100%;
+  position: 100%;
+  top: 10%;
+  transform: translateY(-200%);
+  text-align: center;
+  color: #fff;
+}
+.content h1{
+  font-size: 60px;
+  margin-top: 10px;
+}
+.content h1{
+  font-size: 80px;
+  margin-top: 10px;
+}
+.content p{
+  margin: -5px auto;
+  font-weight: 90;
+  line-height: 25px;
+}
+button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color: #fff;
+}
+button:hover{
+  background: #009688;
+}
