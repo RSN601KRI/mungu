@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.header .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navbar{
+    color: rgb(92, 24, 155);
+    background-color: rgb(255, 255, 255);
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    cursor: pointer;
+    
+}
+.header ul li:hover{
+    background-color: white;
+    border-radius: 2px;
+    transition: all 0.5s ease-in-out;
+    color: black;
+}
+.image{
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    margin: 5px;
+    margin-right: 40px;
+}
+main .first h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 40px;
+}
+main .first p{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.separation{
+    width: 99.8%;
+    height: 2px;
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0);
+}
+.second{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(185, 188, 188);
+    display: flex;
+}
+.insidebox1{
+    height: 600px;
+    width: 800px;
+    background-color: rgb(209, 233, 253);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.insidebox2{
+    height: 600px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0;
+}
+.image3{
+    height: 600px;
+    width: 500px;
+
+}
+.second p{
+    margin: 90px;
+}
+.third{
+        width: 100%;
+        height: 700px;
+        background-color: rgb(238, 254, 255);
+        display: flex;
+    
+}
+
+.insidebox3{
+    height: 600px;
+    width: 800px;
+    background-color: rgb(209, 233, 253);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.insidebox4{
+    height: 600px;
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0;
+}
+.third p{
+    margin: 90px;
+}
+.fourth{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(209, 233, 253);
+    position: relative;
+
+}
+.insidebox5{
+    height: 500px;
+    width: 1100px;
+    background-color: white;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 60px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.zz h1{
+    margin: 0;
+}
+.zz{
+    background-color: rgb(255, 216, 167);
+    height: 600px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+.zz h3{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+
+}
